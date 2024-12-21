@@ -1,0 +1,13 @@
+Most used Streaming protocols are :
+# HLS 
+# MPEG-DASH
+
+Desc:
+
+- Both are Streaming protocols. 
+- diff. way for storing the manifest.
+    - HLS = index.m3u8
+    - DASH = manifest.mpd
+- Based on the bandwidth/network respective bitrate content will get played.
+- Mainly used for ABS[adaptive bitrate streaming].
+- If you want to play HLS/DASH content in browser, Install Native MPEG_DASH + HLS Playback. enable it in the browser paste the link to browser.
